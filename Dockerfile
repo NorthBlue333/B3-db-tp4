@@ -11,5 +11,4 @@ RUN apt-get update && \
     dpkg-reconfigure -f noninteractive tzdata
 COPY ./logrotate.conf /etc/logrotate.d/databases
 RUN chmod 644 /etc/logrotate.d/databases
-RUN service cron start
 CMD ["mysqld"]
