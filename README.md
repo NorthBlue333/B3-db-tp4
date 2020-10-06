@@ -11,4 +11,4 @@ Par défaut le mot de passe root de MySQL est `root`. Pour changer cela il faut 
 
 ## Lancement
 
-Exécuter la commande `docker-compose up (-d si on veut le run en détacher)`
+Exécuter la commande `docker-compose up (-d si on veut le run en détaché du terminal)`
