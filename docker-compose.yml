@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  mysql:
+    image: mysql-with-backups
+    build: ./
+    # build:
+    #   context: ./
+    #   args:
+    #     - MYSQL_ROOT_PASSWORD
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - data:/var/lib/mysql:delegated
+      - backups:/backups:delegated
+volumes:
+  backups:
+  data:
