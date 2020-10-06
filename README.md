@@ -7,7 +7,7 @@ Copier le `.env.example` en `.env`.
 Par défaut le mot de passe root de MySQL est `root`. Pour changer cela il faut :
 
 - Editer le fichier `.env` et changer le mot de passe
-- Dans le `docker-compose.yml` et changer le mot de passe
+- Editer le fichier `docker-compose.yml` et changer le mot de passe
 
 ## Lancement
 
